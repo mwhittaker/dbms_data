@@ -131,18 +131,18 @@ create table sailors(
 --
 -- Populate tables.
 --
-COPY student FROM '/home/vagrant/all_tables/student.txt' CSV;
-COPY faculty FROM '/home/vagrant/all_tables/faculty.txt' CSV;
-COPY class FROM '/home/vagrant/all_tables/class.txt' CSV;
-COPY enrolled FROM '/home/vagrant/all_tables/enrolled.txt' CSV;
-COPY emp FROM '/home/vagrant/all_tables/emp.txt' CSV;
-COPY dept FROM '/home/vagrant/all_tables/dept.txt' CSV;
-COPY works FROM '/home/vagrant/all_tables/works.txt' CSV;
-COPY flights FROM '/home/vagrant/all_tables/flights.txt' CSV;
-COPY aircraft FROM '/home/vagrant/all_tables/aircraft.txt' CSV;
-COPY employees FROM '/home/vagrant/all_tables/employees.txt' CSV;
-COPY certified FROM '/home/vagrant/all_tables/certified.txt' CSV;
-COPY suppliers FROM '/home/vagrant/all_tables/suppliers.txt' CSV;
-COPY parts FROM '/home/vagrant/all_tables/parts.txt' CSV;
-COPY catalog FROM '/home/vagrant/all_tables/catalog.txt' CSV;
-COPY sailors FROM '/home/vagrant/all_tables/sailors.txt' CSV;
+\COPY student FROM 'student.txt' CSV;
+\COPY faculty FROM 'faculty.txt' CSV;
+\COPY class FROM 'class.txt' CSV;
+\COPY enrolled FROM 'enrolled.txt' CSV;
+\COPY emp FROM 'emp.txt' CSV;
+\COPY dept FROM 'dept.txt' CSV;
+\COPY works FROM 'works.txt' CSV;
+\COPY flights FROM 'flights.txt' CSV;
+\COPY aircraft FROM 'aircraft.txt' CSV;
+\COPY employees FROM 'employees.txt' CSV;
+\COPY certified FROM 'certified.txt' CSV;
+\COPY suppliers FROM 'suppliers.txt' CSV;
+\COPY parts FROM 'parts.txt' CSV;
+\COPY catalog FROM 'catalog.txt' CSV;
+\COPY sailors FROM 'sailors.txt' CSV;
